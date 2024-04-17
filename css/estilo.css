@@ -1,0 +1,169 @@
+#todo{
+    margin-top: 180px;
+    justify-content: center;
+    display: flex;
+    color: rgba(255, 255, 255, 0.562);
+}
+#esquerdo{
+    width: 250px;
+    height: auto;
+    background-color: #E28525;
+    padding: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#esq button{
+    background-color: white;
+    color: #E28525;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+#centro{
+    width: 250px;
+    height: auto;
+    background-color: #016972;
+    padding: 50px;
+}
+#cen button{
+    background-color: white;
+    color: #016972;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+#direito{
+    width: 250px;
+    height: auto;
+    background-color: #00403F;
+    padding: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#dir button{
+    background-color: white;
+    color: #00403F;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+}
+#todo button:hover{
+    background-color: rgba(255, 255, 255, 0.699);
+    cursor: pointer;
+}
+h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 40px;
+    color: white;
+}
+p{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+img{
+    width: 70px;
+}
+@font-face {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lexenddeca/v21/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48M1wqxnD.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/bigshouldersdisplay/v21/fC1MPZJEZG-e9gHhdI4-NBbfd2ys3SjJCx12wPgf9g-_3F0YdWg8FFkwSA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@media (max-width: 800px){
+    #todo{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: block;
+        color: white;
+    }
+    #esq{
+        width: auto;
+        height: auto;
+        background-color: #E28525;
+        padding: 50px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+    #esq button{
+        background-color: white;
+        color: #E28525;
+        border: none;
+        padding: 20px 50px;
+        border-radius: 30px;
+        font-size: 18px;
+        font-family: "Lexend Deca", sans-serif;
+    }
+    #cen{
+        width: auto;
+        height: auto;
+        background-color: #016972;
+        padding: 50px;
+    }
+    #cen button{
+        background-color: white;
+        color: #016972;
+        border: none;
+        padding: 20px 50px;
+        border-radius: 30px;
+        font-size: 18px;
+        font-family: "Lexend Deca", sans-serif;
+    }
+    #dir{
+        width: auto;
+        height: auto;
+        background-color: #00403F;
+        padding: 50px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+    }
+    #dir button{
+        background-color: white;
+        color: #00403F;
+        border: none;
+        padding: 20px 50px;
+        border-radius: 30px;
+        font-size: 18px;
+        font-family: "Lexend Deca", sans-serif;
+    }
+    #todo button:hover{
+        background-color: rgba(255, 255, 255, 0.699);
+        cursor: pointer;
+    }
+    h1{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-family: "Big Shoulders Display", sans-serif;
+        font-size: 50px;
+    }
+    p{
+        font-family: "Lexend Deca", sans-serif;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    img{
+        width: 80px;
+    }
+}
